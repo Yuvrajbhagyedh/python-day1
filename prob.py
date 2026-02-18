@@ -1,4 +1,5 @@
-inp=input("enter a string to reverse it")
-
+inp=input("enter a string to reverse it  ")
+rev=""
 for i in inp:
-    digit=
+    rev=i+rev
+print(rev)    #this is used to reverse a character
