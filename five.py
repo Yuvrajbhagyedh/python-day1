@@ -18,4 +18,4 @@ for num in range(n):
     dict[key]=value
 
 
-print(dict)
+print(dict.keys())
