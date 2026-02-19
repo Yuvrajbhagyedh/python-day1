@@ -12,4 +12,4 @@ dict1={
 
 
 
-print(list(dict1.values()))
+print(dict1.items())
