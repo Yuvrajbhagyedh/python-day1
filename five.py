@@ -1,12 +1,12 @@
-#dictionaries in python
-# dict={
-#     "name":"Yuvraj K",
-#     "roll no":162,
-#     "marks":{
-#         "cn":89,
-#         "os":56
-#     }
-# }
+# dictionaries in python
+dict1={
+    "name":"Yuvraj K",
+    "roll no":162,
+    "marks":{
+        "cn":89,
+        "os":56
+    }
+}
 
 #now taking input from the user for dictionaries
 
