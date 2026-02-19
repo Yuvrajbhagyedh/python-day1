@@ -8,14 +8,8 @@ dict1={
     }
 }
 
-#now taking input from the user for dictionaries
-
-n=int(input("enter  the range "))
-dict={}
-for num in range(n):
-    key=input("enter the value for key")
-    value=input("enter the value")
-    dict[key]=value
 
 
-print(dict.keys())
+
+
+print(list(dict1.values()))
