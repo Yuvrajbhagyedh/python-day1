@@ -1,6 +1,6 @@
 #the first problem is to print form 1 to 20
-sum=0
-for i in range(1,6):
-    sum+=i
+n=int(input("enter the range to check even "))
+for i in range(2,n,2):
+    print(i)
 
-print(sum)   
+   
