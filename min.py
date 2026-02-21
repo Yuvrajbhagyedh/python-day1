@@ -1,9 +1,10 @@
-arr=[12,43,4,-1,534]
+arr=[1,32,43,-13,42,0]
 
-min=arr[0]
+min_val=arr[0]
 
-for i in range(len(arr)):
-    if arr[i]<min:
-        min=arr[i]
+for i in range(1,len(arr)):
+    if arr[i]<min_val:
+        min_val=arr[i]
 
-print(min)        
+
+print(min_val)        
