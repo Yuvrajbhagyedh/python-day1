@@ -1,6 +1,8 @@
 # so to create dictionaries for the project
 dicti={"name":"yuvraj","age":23}
-val=dict(name="mee",b=95)
+
+value=dicti.pop("name")
 print(dicti)
-print(val)
-print(dicti["age"])
+
+dicti.clear()
+print(dicti)
