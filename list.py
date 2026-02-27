@@ -7,4 +7,3 @@ c=lis.index(1,1,6)
 dicti={"name":"yuvraj","age":22,"city":"delhi"}
 print(dicti)
 print(a)
-print(sit2)
