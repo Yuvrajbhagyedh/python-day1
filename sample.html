@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    jcffknc
+    <script>
+        student={
+    name:'Yuvraj',
+    age:23,
+    marks:
+    {"science":29,"maths":45,"phy":65,"social":43}
+}
+console.log(student.name)
+console.log(student.age)
+console.log(student.marks['science']);
+let total=0
+let count=0
+for(let i in student.marks){
+total+=student.marks[i]
+count++
+}
+console.log(total/count);
+
+    </script>
+</body>
+</html>
