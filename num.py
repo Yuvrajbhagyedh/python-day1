@@ -1,10 +1,8 @@
 import numpy as np
+import time
+li=[1,2,3,43,5,3]
 
-lis=[1,2,3,4,5]
-lis2=[2,4,5,56,3]
-lis3=[2,4,5,56,3]
-arr=np.array([lis,lis2,lis3])
-
-arr1=arr.reshape(5,3)
-print(arr1)
-print(type(arr))
+b=np.array(li)
+start=time.time()
+print(b*2)
+print(time.time())
